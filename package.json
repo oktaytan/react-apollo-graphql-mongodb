@@ -1,0 +1,17 @@
+{
+  "name": "react-graphql-apollo",
+  "version": "1.0.0",
+  "description": "> Application that brings books and book authors in the database using Graphql and adds a new book record to the database",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "dev": "npm start --prefix client",
+    "start": "concurrently \"npm run server\" \"npm run dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
